@@ -42,5 +42,3 @@ Below is the architecture diagram used for this DevOps setup:
 | **Prometheus/Grafana (optional)** | Advanced monitoring dashboards |
 
 ---
-
-## 📁 Repository Structure (Recommended)
