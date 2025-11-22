@@ -1,44 +1,61 @@
-# 🚀 AWS DevOps Infrastructure – Terraform, Kubernetes, Docker & GitLab CI/CD
+---
 
-This repository contains a complete, production-ready DevOps architecture designed using **AWS**, **Terraform**, **Kubernetes (EKS)**, **Docker**, and **GitLab CI/CD**.  
-It is based on real-world experience building automated, secure, and highly scalable cloud environments used in production.
+## ⚙️ Workflow Summary
+
+### **1. Infrastructure Provisioning (Terraform)**
+- VPC creation
+- Public/Private subnets
+- Internet gateways & NAT
+- EKS or EC2 module deployment
+- IAM roles for nodes and CI/CD
+
+### **2. CI/CD Pipeline (GitLab)**
+- Build
+- Test
+- Dockerize
+- Push to Registry
+- Deploy to Kubernetes or EC2
+
+### **3. Kubernetes Deployment**
+- Deployments, Services, Ingress
+- Autoscaling (HPA)
+- ConfigMaps & Secrets
+
+### **4. Monitoring & Security**
+- CloudWatch logs & alarms
+- IAM best practices
+- Kubernetes RBAC
+- Security groups & least privilege
 
 ---
 
-## 📌 Project Overview
+## 🎯 Why This Project Is Useful
 
-This project showcases how to design and implement a fully automated cloud infrastructure using:
+This repository demonstrates:
 
-- **AWS Cloud Infrastructure**
-- **Terraform Infrastructure as Code (IaC)**
-- **Kubernetes (EKS) for container orchestration**
-- **Docker for containerization**
-- **GitLab CI/CD for automated deployments**
-- **CloudWatch for monitoring & logging**
-- **Security best practices (IAM, Networking, Policies)**
+- Real-world **DevOps architecture**
+- How to scale applications using **Kubernetes**
+- How to manage cloud infrastructure using **Terraform**
+- How to automate deployments using **GitLab CI/CD**
+- Clean structure for professional portfolio
+- Strong sample for **Upwork/clients/interviews**
 
-The goal is to provide a stable, scalable, secure, and repeatable DevOps workflow suitable for real production workloads.
+## 🔗 Upwork Project Link
+
+You can hire me for this DevOps setup here:
+👉 **Upwork Project:** [AWS DevOps – Terraform, Kubernetes & CI/CD](https://www.upwork.com/services/product/development-it-i-will-build-aws-devops-infrastructure-with-terraform-and-kubernetes-1992297055634421835?ref=project_share)
+---
+
+## 👤 Author
+
+**Chippada Gurunadh**
+AWS DevOps Engineer | Terraform | Kubernetes | GitLab CI/CD
+GitHub: https://github.com/gurudevops7181
+LinkedIn: https://www.linkedin.com/in/chippada-gurunadh-2b71271b4/
 
 ---
 
-## 🏗️ Architecture Diagram
+## 📬 Need Help?
 
-Below is the architecture diagram used for this DevOps setup:
-
-![DevOps Architecture](./images/A_pair_of_digital_diagrams_illustrating_DevOps_and.png)
-
----
-
-## 🧩 Technologies Used
-
-| Technology | Purpose |
-|-----------|----------|
-| **AWS** | Compute, Networking, Storage, Security |
-| **Terraform** | IaC for scalable infrastructure provisioning |
-| **Kubernetes (EKS)** | Container orchestration & scaling |
-| **Docker** | Containerization |
-| **GitLab CI/CD** | Automated build, test, deploy workflows |
-| **CloudWatch** | Logs, alarms, metrics & monitoring |
-| **Prometheus/Grafana (optional)** | Advanced monitoring dashboards |
-
----
+If you want this project implemented for your organization,
+connect with me on **Upwork** for full DevOps setup or consulting.
